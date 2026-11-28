@@ -163,3 +163,4 @@ body.auth { display: flex; justify-content: center; align-items: center; overflo
 
 @media (max-width: 720px) { .split { grid-template-columns: 1fr; } .hero { padding: 30px 18px; } }
 @media (prefers-reduced-motion: reduce) { body, .glow, .auth-box { animation: none; } .card, .btn { transition: none; } }
+body.auth a { color: #fff; text-decoration: underline; font-weight: bold; }
